@@ -1,0 +1,45 @@
+Initialized native services in: C:\Users\gotob\.gradle\native
+Initialized jansi services in: C:\Users\gotob\.gradle\native
+Received JVM installation metadata from 'C:\Program Files\Eclipse Adoptium\jdk-11.0.16.101-hotspot': {JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-11.0.16.101-hotspot, JAVA_VERSION=11.0.16.1, JAVA_VENDOR=Eclipse Adoptium, RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=11.0.16.1+1, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=11.0.16.1+1, VM_VENDOR=Eclipse Adoptium, OS_ARCH=amd64}
+Removing 0 daemon stop events from registry
+Previous Daemon (1072) stopped at Thu Nov 23 00:11:59 SGT 2023 by user or operating system
+Starting a Gradle Daemon, 1 stopped Daemon could not be reused, use --status for details
+Starting process 'Gradle build daemon'. Working directory: C:\Users\gotob\.gradle\daemon\7.6.3 Command: C:\Program Files\Eclipse Adoptium\jdk-11.0.16.101-hotspot\bin\java.exe --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED --add-opens=java.base/java.nio.charset=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED -XX:MaxMetaspaceSize=256m -XX:+HeapDumpOnOutOfMemoryError -Xms256m -Xmx512m -Dfile.encoding=windows-1252 -Duser.country=IN -Duser.language=en -Duser.variant -cp C:\Program Files\Mendix\gradle-7.6.3\lib\gradle-launcher-7.6.3.jar org.gradle.launcher.daemon.bootstrap.GradleDaemon 7.6.3
+Successfully started process 'Gradle build daemon'
+An attempt to start the daemon took 2.164 secs.
+The client will now receive all logging from the daemon (pid: 5064). The daemon log file: C:\Users\gotob\.gradle\daemon\7.6.3\daemon-5064.out.log
+Starting build in new daemon [memory: 512 MiB]
+Using 8 worker leases.
+Received JVM installation metadata from 'C:\Program Files\Eclipse Adoptium\jdk-11.0.16.101-hotspot': {JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-11.0.16.101-hotspot, JAVA_VERSION=11.0.16.1, JAVA_VENDOR=Eclipse Adoptium, RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=11.0.16.1+1, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=11.0.16.1+1, VM_VENDOR=Eclipse Adoptium, OS_ARCH=amd64}
+Watching the file system is configured to be enabled if available
+Now considering [C:\Users\gotob\Mendix\RestApp-main\deployment] as hierarchies to watch
+File system watching is active
+Starting Build
+Settings evaluated using settings file 'C:\Users\gotob\Mendix\RestApp-main\deployment\settings.gradle'.
+Projects loaded. Root project using build file 'C:\Users\gotob\Mendix\RestApp-main\deployment\build.gradle'.
+Included projects: [root project 'deployment']
+
+> Configure project :
+Evaluating root project 'deployment' using build file 'C:\Users\gotob\Mendix\RestApp-main\deployment\build.gradle'.
+Compiling script 'C:\Users\gotob\Mendix\RestApp-main\deployment\variables.gradle' using SubsetScriptTransformer.
+Compiling script 'C:\Users\gotob\Mendix\RestApp-main\deployment\variables.gradle' using BuildScriptTransformer.
+All projects evaluated.
+Task name matched 'clean'
+Selected primary task 'clean' from project :
+Tasks to be executed: [task ':clean']
+Tasks that were excluded: []
+Resolve mutations for :clean (Thread[Execution worker Thread 2,5,main]) started.
+:clean (Thread[included builds,5,main]) started.
+
+> Task :clean UP-TO-DATE
+Caching disabled for task ':clean' because:
+  Build cache is disabled
+Task ':clean' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+
+BUILD SUCCESSFUL in 9s
+1 actionable task: 1 up-to-date
+Watched directory hierarchies: []
+
+
+

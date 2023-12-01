@@ -1,0 +1,55 @@
+{
+  "RuntimeVersion": "10.4.1.20145",
+  "ProjectID": "61596fb1-8347-48e4-bd4f-ef64b2589878",
+  "ProjectName": "RestApp",
+  "ModelVersion": "unversioned",
+  "Description": "",
+  "AdminUser": "MxAdmin",
+  "Roles": {
+    "8dd52bfa-6d7e-453b-b506-303c0a3d9567": {
+      "Name": "Administrator",
+      "ManageableRoles": [
+        "8dd52bfa-6d7e-453b-b506-303c0a3d9567",
+        "53f5d6fa-6da9-4a71-b011-454ec052cce8"
+      ]
+    },
+    "53f5d6fa-6da9-4a71-b011-454ec052cce8": {
+      "Name": "User"
+    }
+  },
+  "AdminRole": "8dd52bfa-6d7e-453b-b506-303c0a3d9567",
+  "Constants": [
+    {
+      "Name": "NanoflowCommons.Nanoflow_Commons_Version",
+      "Type": "String",
+      "Description": "",
+      "DefaultValue": "4.0.0"
+    }
+  ],
+  "ScheduledEvents": [],
+  "Languages": [
+    "en_US"
+  ],
+  "Configuration": {
+    "SourceDatabaseType": "HSQLDB",
+    "SourceDatabaseName": "default",
+    "SourceBuiltInDatabasePath": "model/sampledata/data/database"
+  },
+  "RequestHandlers": [
+    {
+      "Name": "/api/",
+      "DefaultEnabled": true,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/link/",
+      "DefaultEnabled": true,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/p/",
+      "DefaultEnabled": false,
+      "MatchExactly": false
+    }
+  ]
+}

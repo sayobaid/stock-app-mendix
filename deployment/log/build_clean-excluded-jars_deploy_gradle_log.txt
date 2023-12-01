@@ -1,0 +1,69 @@
+Initialized native services in: C:\Users\gotob\.gradle\native
+Initialized jansi services in: C:\Users\gotob\.gradle\native
+Received JVM installation metadata from 'C:\Program Files\Eclipse Adoptium\jdk-11.0.16.101-hotspot': {JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-11.0.16.101-hotspot, JAVA_VERSION=11.0.16.1, JAVA_VENDOR=Eclipse Adoptium, RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=11.0.16.1+1, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=11.0.16.1+1, VM_VENDOR=Eclipse Adoptium, OS_ARCH=amd64}
+The client will now receive all logging from the daemon (pid: 4816). The daemon log file: C:\Users\gotob\.gradle\daemon\7.6.3\daemon-4816.out.log
+Starting 11th build in daemon [uptime: 1 hrs 17 mins 29.577 secs, performance: 100%, non-heap usage: 25% of 256 MiB]
+Using 8 worker leases.
+Now considering [C:\Users\gotob\Mendix\RestApp-main\deployment] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file 'C:\Users\gotob\Mendix\RestApp-main\deployment\settings.gradle'.
+Projects loaded. Root project using build file 'C:\Users\gotob\Mendix\RestApp-main\deployment\build.gradle'.
+Included projects: [root project 'deployment']
+
+> Configure project :
+Evaluating root project 'deployment' using build file 'C:\Users\gotob\Mendix\RestApp-main\deployment\build.gradle'.
+All projects evaluated.
+Task name matched 'clean-excluded-jars'
+Task name matched 'deploy'
+Selected primary task 'clean-excluded-jars' from project :
+Selected primary task 'deploy' from project :
+Tasks to be executed: [task ':clean-excluded-jars', task ':copyDeploymentArtifacts', task ':copyLibs', task ':copyResources', task ':unzipDataSnapshot', task ':deploy']
+Tasks that were excluded: []
+Resolve mutations for :clean-excluded-jars (Thread[Execution worker,5,main]) started.
+:clean-excluded-jars (Thread[Execution worker,5,main]) started.
+destroyer locations for task group 0 (Thread[included builds,5,main]) started.
+
+> Task :clean-excluded-jars UP-TO-DATE
+Caching disabled for task ':clean-excluded-jars' because:
+  Build cache is disabled
+Task ':clean-excluded-jars' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+Resolve mutations for :copyDeploymentArtifacts (Thread[Execution worker,5,main]) started.
+:copyDeploymentArtifacts (Thread[Execution worker,5,main]) started.
+
+> Task :copyDeploymentArtifacts
+Caching disabled for task ':copyDeploymentArtifacts' because:
+  Build cache is disabled
+Task ':copyDeploymentArtifacts' is not up-to-date because:
+  Task state is not tracked.
+Not watching anything anymore
+Watching 0 directory hierarchies to track changes
+Resolve mutations for :copyLibs (Thread[included builds,5,main]) started.
+:copyLibs (Thread[included builds,5,main]) started.
+
+> Task :copyLibs NO-SOURCE
+Skipping task ':copyLibs' as it has no source files and no previous output files.
+Resolve mutations for :copyResources (Thread[included builds,5,main]) started.
+:copyResources (Thread[included builds,5,main]) started.
+
+> Task :copyResources NO-SOURCE
+Skipping task ':copyResources' as it has no source files and no previous output files.
+Resolve mutations for :unzipDataSnapshot (Thread[included builds,5,main]) started.
+:unzipDataSnapshot (Thread[included builds,5,main]) started.
+
+> Task :unzipDataSnapshot SKIPPED
+Skipping task ':unzipDataSnapshot' as task onlyIf 'Task is enabled' is false.
+Resolve mutations for :deploy (Thread[included builds,5,main]) started.
+:deploy (Thread[included builds,5,main]) started.
+
+> Task :deploy
+Skipping task ':deploy' as it has no actions.
+
+BUILD SUCCESSFUL in 1s
+2 actionable tasks: 1 executed, 1 up-to-date
+Watched directory hierarchies: []
+
+
+
